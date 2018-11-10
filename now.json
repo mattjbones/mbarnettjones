@@ -1,0 +1,20 @@
+{
+    "version": 2,
+    "builds": [{
+            "src": "apis/date.js",
+            "use": "@now/node"
+        },
+        {
+            "src": "index.html",
+            "use": "@now/static"
+        },
+		  {
+			  "src": "style/*",
+           "use": "@now/static"
+		  },
+		  {
+			  "src": "media/*",
+           "use": "@now/static"
+		  } 
+    ]
+}

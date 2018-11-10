@@ -1,0 +1,64 @@
+html, body, .content {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: "Courier New";
+	font-size: 100%;
+	overflow: hidden;
+}
+
+div {
+	display: flex;
+	flex-direction: column;
+}
+
+h1, h2, li {
+	padding: 4px;
+	color: white;
+	width: fit-content;
+	display: inline;
+	background-color: #672d175c;
+}
+
+ul {
+	padding-inline-start: 0;
+	padding-left: 0;
+}
+
+a {
+	color: #ea9191;
+}
+
+a:hover {
+	background-color: orange;
+}
+
+.content {
+	padding-top: 40vh;
+	padding-left: 20px;
+}
+
+.background {
+	 left: 0px;
+    top: 0px;
+    position: fixed;
+    z-index: -9999;
+}
+
+.background img {
+    width: 100vw;
+    height: 100vh;
+	 object-fit: cover;
+ }
+
+
+@media all screen and (max-width: 600px) {
+	body {
+		font-size: 200%;
+	}
+}
+
