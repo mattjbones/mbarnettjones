@@ -1,0 +1,14 @@
+{
+ "name": "mbarnetjones.com",
+ "version": "1.0.0",
+ "description": "",
+ "now": {
+  "alias": [
+   "mbarnettjones.com",
+   "www.mbarnettjones.com"
+  ]
+ },
+ "scripts": {},
+ "author": "Matt Barnett-Jones",
+ "license": "ISC"
+}

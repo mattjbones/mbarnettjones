@@ -38,7 +38,7 @@ a:hover {
 }
 
 .content {
-	padding-top: 40vh;
+	padding-top: 20vh;
 	padding-left: 20px;
 }
 
@@ -53,12 +53,13 @@ a:hover {
     width: 100vw;
     height: 100vh;
 	 object-fit: cover;
+	object-position: 100% 80%;
  }
 
 
-@media all screen and (max-width: 600px) {
+@media (min-width: 0px) and (max-width: 600px) {
 	body {
-		font-size: 200%;
+		font-size: 90%;
 	}
 }
 
