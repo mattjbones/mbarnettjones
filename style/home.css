@@ -5,6 +5,11 @@ html, body, .content {
 	margin: 0;
 }
 
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	font-family: "Courier New";
 	font-size: 100%;
@@ -16,17 +21,25 @@ div {
 	flex-direction: column;
 }
 
+
 h1, h2, li {
 	padding: 4px;
+	margin-bottom: 4px;
 	color: white;
 	width: fit-content;
-	display: inline;
 	background-color: #672d175c;
 }
 
 ul {
+	margin-top: 12px;
 	padding-inline-start: 0;
 	padding-left: 0;
+}
+
+li {
+	display: inline-block;
+	margin-top: 2px;
+	white-space: nowrap;
 }
 
 a {
@@ -58,7 +71,7 @@ a:hover {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
 	body {
 		font-size: 84%;
 	}
