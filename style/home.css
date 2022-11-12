@@ -1,16 +1,17 @@
 html,
 body,
 .content {
-  width: 100%;
-  height: 100%;
   padding: 0;
   margin: 0;
 }
 
-body {
+html {
   background-image: url(../media/background_small.jpg);
+  /* background-position: 100% 80%; */
+  height: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: 100% 80%;
 }
 
 * {
@@ -21,7 +22,8 @@ body {
 body {
   font-family: 'Courier New';
   font-size: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 div {
@@ -85,8 +87,9 @@ a:hover {
 }
 
 .curios {
-  position: absolute;
-  bottom: 20vh;
+  position: relative;
+  margin-top: 40vh;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 400px) {
