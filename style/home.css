@@ -50,16 +50,24 @@ a:hover {
 }
 
 .background img {
-    width: 100vw;
-    height: 100vh;
-	 object-fit: cover;
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
 	object-position: 100% 80%;
- }
+}
 
 
-@media (min-width: 0px) and (max-width: 600px) {
+@media (max-width: 600px) {
 	body {
-		font-size: 90%;
+		font-size: 80%;
+	}
+	.content { 
+		padding-left: 10px;
+	}
+
+	li { 
+		display: block;
+		margin-bottom: 2px;
 	}
 }
 
