@@ -35,6 +35,7 @@ a {
 
 a:hover {
 	background-color: orange;
+	color: darkslategray
 }
 
 .content {
@@ -67,7 +68,7 @@ a:hover {
 
 	li { 
 		display: block;
-		margin-bottom: 2px;
+		margin-bottom: 4px;
 	}
 }
 
