@@ -65,6 +65,14 @@ li {
   background-color: #4920105c;
 }
 
+h1 { 
+	font-size: 8em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
 ul {
   margin-top: 12px;
   padding-inline-start: 0;
