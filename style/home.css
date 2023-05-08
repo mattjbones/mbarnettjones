@@ -65,12 +65,12 @@ li {
   background-color: #4920105c;
 }
 
-h1 { 
-	font-size: 8em;
+h1 {
+  font-size: 8em;
 }
 
 h2 {
-	font-size: 2em;
+  font-size: 2em;
 }
 
 ul {
@@ -116,6 +116,10 @@ a:hover {
   position: relative;
   margin-top: 40vh;
   margin-bottom: 10px;
+}
+
+.curios li {
+  display: block;
 }
 
 @media (max-width: 400px) {
